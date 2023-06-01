@@ -114,60 +114,16 @@ img {
   background-color: rgb(126, 194, 197);
 }
 
-/* .btn-toggle {
-  font-size: 1.6rem;
-  color: hsl(204, 54%, 14%); 
-  background: transparent;
-  border-color: transparent;
-  transition: all 0.3s linear;
-  cursor: pointer;  
-  position: absolute;
-  right: 0; 
-} 
-
-.btn-toggle:hover {
-  color: hsl(227, 67%, 12%);
-  transform: rotate(90deg); 
-} 
-
-
-.show-links {
-  height: 15rem;
-}  */
-/* original */
-/* .list-items  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* width: 50%; */
-/*}
- /*
-.list-items li  { 
-  color: white;
-  padding: 8px 22px;  
-  margin: 0 5px;
-  border-radius: 4px;
-  cursor: pointer; 
-}      
-
-.list-items li:hover {
-  background-color: rgb(126, 194, 197);  
-}  */
-/* selector id  */
-/* el id tiene mas fuerza que una clase */
-/* #arriba {
-  background-color: rgba(183, 170, 154, 0.452); 
-}    */
 .container-hero {
   text-align: center;
   position: relative;
 }
 
 .hero .title-hero {
-  position: absolute;
+  position: absolute; 
   top: 140px;
   bottom: 0;
-  right: 0;
+  right: 0; 
   left: 0;
   z-index: 1;
   color: teal;
@@ -278,7 +234,7 @@ img {
   margin: 40px;
   width: 350px;
   height: auto; 
-  padding: 40px;
+  padding: 40px; 
   border-radius: 8px;
   position: relative;
   font-family: "Roboto", sans-serif;
@@ -408,7 +364,7 @@ img {
   font-size: 1.2rem;
   cursor: pointer;
   margin-top: 20px;
-}
+} 
 
 .formulario .btn-submit:hover {
   background-color: rgb(126, 194, 197);
@@ -438,8 +394,9 @@ img {
 
 .footer img {
   width: 25px;
-}
-
+  margin: 0 0.5rem;
+}  
+ 
 .btn-toggle {
   display: none;
 }
@@ -479,14 +436,16 @@ img {
   .container-productos {
     grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
+
   .card-producto {
     width: 250px;
     height: auto;
-    padding: 20px;
+    padding: 20px; 
   }
+ 
   .descuento {
     position: absolute;
-    top: 0;
+    top: 0; 
     right: -50px;
     padding: 2px 10px;
     font-size: 0.8rem;
