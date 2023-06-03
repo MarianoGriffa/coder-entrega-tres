@@ -465,6 +465,10 @@ img {
     gap: 60px;
   } 
 
+  .container-map {
+    margin-right: 0;
+  }  
+
   .container-map iframe {
     width: 400px;
     height: 380px;
@@ -540,6 +544,33 @@ img {
   .historia p {
     font-size: 0.8rem;
   }
+
+ 
+  .container-map iframe {
+    width: 280px;
+    height: 220px;
+  }  
+  
+  .container-form {
+    padding: 30px; 
+    margin: 0 80px;
+    max-width: 300px; 
+  }   
+
+  .container-form h4 {
+    font-size: 8px;
+  } 
+  
+  .formulario input {
+    width: 220px; 
+  }  
+
+  .formulario textarea {
+    margin: 5px 0 5px; 
+    max-width: 220px; 
+  } 
+ 
+
 }
 @media screen and (max-width: 320px) {
   .container-servicios {
