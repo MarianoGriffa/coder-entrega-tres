@@ -340,9 +340,12 @@ img {
 }
 
 .container-form h4 {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 20px;
   text-transform: uppercase;
+  max-width: 380px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
 }
 
 .formulario label {
@@ -351,7 +354,7 @@ img {
 
 .formulario input {
   padding: 8px;
-  width: 385px;
+  width: 380px;
   margin-bottom: 15px;
 }
 
@@ -454,6 +457,35 @@ img {
   }
   .img-historia {
     max-width: 400px;
+  }
+  .container-contacto {
+    gap: 60px;
+  }
+  .container-map iframe {
+    width: 400px;
+    height: 380px;
+  }
+  .container-form {
+    padding: 30px;
+    margin: 0 80px;
+  }
+  .formulario input {
+    padding: 6px;
+    margin-bottom: 12px;
+  }
+  .formulario .btn-submit {
+    margin: 0;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .formulario textarea {
+    display: block;
+    margin: 5px 0 5px;
   }
 }
 @media screen and (max-width: 420px) {
